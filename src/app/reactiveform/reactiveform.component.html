@@ -1,0 +1,21 @@
+<div class="container">
+    <h1>Study React Form</h1>
+    <div>
+        <label for="name">Name:</label>
+        <input id="name" type="text" [formControl]="name"/>
+        <p>value: {{name.value}}</p>
+        <button type="button" (click)="updateName()">Update</button>
+    </div>
+
+    <div>
+        <form [formGroup]="profile" (ngSubmit)="updateProfile()" #myForm="ngForm">
+            <label for="first-name">First Name : </label>
+            <input id="first-name" type="text" formControlName="firstName"/>
+            <br/>
+            <label for="last-name">Last Name : </label>
+            <input id="last-name" type="text" formControlName="lastName"/>
+            <br/>
+            <button type="submit" [disabled]="!myForm.form.valid" class="btn btn-success" >Update Profile</button>
+        </form>
+    </div>
+</div>

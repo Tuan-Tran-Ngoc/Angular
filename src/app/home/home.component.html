@@ -1,0 +1,27 @@
+<p>home works!</p>
+<p>Toi ten là {{name | slice: 0:3 | uppercase}}</p>
+<p>Tuoi toi la {{age | number:"0.2" | currency}}</p> 
+<span *ngIf="age > 18" MyBold>Toi con gia chan</span>
+<span *ngIf="age <= 18" MyBold>toi la 18</span>
+<br />
+Danh sach xe <br />
+<div *ngFor="let a of arr">
+    <li>{{a}}</li>
+</div>
+
+<div>
+    <select>
+        <option *ngFor="let i of arr">{{i}}</option>
+    </select>
+</div>
+
+<br/>
+<br/>
+<input [(ngModel)]="name"/>
+<br/><br/>
+<button class="bt1" (click)="functionClick()">BT1</button>
+
+<br/><br/>
+<span *ngIf="age > 18; then condition1; else condition2"></span>
+<ng-template #condition1 >Ban da gia</ng-template>
+<ng-template #condition2 >Ban con qua tre</ng-template>
