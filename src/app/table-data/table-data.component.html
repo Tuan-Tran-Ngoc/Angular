@@ -1,0 +1,22 @@
+<table id="customers">
+    <tr>
+      <th>Company</th>
+      <th>Contact</th>
+      <th>Country</th>
+    </tr>
+    <tr *ngFor="let company of lstCompany">
+      <td>{{company['name']}}</td>
+      <td>{{company['contact']}}</td>
+      <td>{{company['country']}}</td>
+    </tr>
+    <tr [formGroup] = "company">
+        <td><input id="nameCompany" type="text" formControlName="nameCompany"></td>
+        <td><input id="contactCompany" formControlName="contactCompany" type="text"></td>
+        <td><input id="countryCompany" formControlName="countryCompany" type="text"></td>
+    </tr>
+</table><br />
+<a href="#" class="notification">
+    <span>Count Company</span>
+    <span class="badge">{{lstCompany?.length}}</span>
+</a> <br /> <br />
+<button type="submit" class="btn btn-success" (click)="creatCompany()">Create Company</button>

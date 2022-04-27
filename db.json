@@ -1,12 +1,155 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { 
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
       "name": "Tuan",
-      "age": 25 
+      "lastname": "Trần Ngọc",
+      "id": 2
+    },
+    {
+      "name": "Tuan",
+      "lastname": "Trần Ngọcb u",
+      "id": 3
     }
-  }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {},
+  "company": [
+    {
+      "id": 1,
+      "name": "company 1",
+      "contact": "contact 1",
+      "country": "country 1"
+    },
+    {
+      "id": 2,
+      "name": "company 2",
+      "contact": "contact 2",
+      "country": "country 2"
+    },
+    {
+      "id": 3,
+      "name": "company 3",
+      "contact": "contact 3",
+      "country": "country 3"
+    },
+    {
+      "id": 4,
+      "name": "company 4",
+      "contact": "contact 4",
+      "country": "country 4"
+    },
+    {
+      "id": 5,
+      "name": "company 5",
+      "contact": "contact 5",
+      "country": "country 5"
+    },
+    {
+      "name": "cantact 6",
+      "contact": "company 6",
+      "country": "country 6",
+      "id": 6
+    },
+    {
+      "name": "company7",
+      "contact": "contact 7 ",
+      "country": "country 7",
+      "id": 7
+    },
+    {
+      "name": "company 8",
+      "contact": "contact 8",
+      "country": "country 8",
+      "id": 8
+    },
+    {
+      "name": "compnay 9",
+      "contact": "contact 9",
+      "country": "country 9",
+      "id": 9
+    },
+    {
+      "name": "compnay 9",
+      "contact": "contact 9",
+      "country": "country 9",
+      "id": 10
+    },
+    {
+      "name": "compnay 9",
+      "contact": "contact 9",
+      "country": "country 9",
+      "id": 11
+    },
+    {
+      "name": "compnay 9",
+      "contact": "contact 9",
+      "country": "country 9",
+      "id": 12
+    },
+    {
+      "name": "compnay 9",
+      "contact": "contact 9",
+      "country": "country 9",
+      "id": 13
+    },
+    {
+      "name": "compnay 9",
+      "contact": "contact 9",
+      "country": "country 9",
+      "id": 14
+    },
+    {
+      "name": "compnay 9",
+      "contact": "contact 9",
+      "country": "country 9",
+      "id": 15
+    },
+    {
+      "name": "compnay 9",
+      "contact": "contact 9",
+      "country": "country 9",
+      "id": 16
+    },
+    {
+      "name": "compnay 9",
+      "contact": "contact 9",
+      "country": "country 9",
+      "id": 17
+    },
+    {
+      "name": "compnay 9",
+      "contact": "contact 9",
+      "country": "country 9",
+      "id": 18
+    },
+    {
+      "name": "compnay 9",
+      "contact": "contact 9",
+      "country": "country 9",
+      "id": 19
+    },
+    {
+      "name": "compnay 9",
+      "contact": "contact 9",
+      "country": "country 9",
+      "id": 20
+    },
+    {
+      "name": "compnay 9",
+      "contact": "contact 9",
+      "country": "country 9",
+      "id": 21
+    }
+  ]
+}

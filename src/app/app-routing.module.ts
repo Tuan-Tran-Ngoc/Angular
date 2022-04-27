@@ -5,6 +5,7 @@ import { FormComponent } from './form/form.component';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ReactiveformComponent } from './reactiveform/reactiveform.component';
+import { TableDataComponent } from './table-data/table-data.component';
 
 const routes: Routes = [
   {path: "", component: HomeComponent},
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path: "about", component: AboutComponent},
   {path: "form", component: FormComponent},
   {path: "reactive-form", component: ReactiveformComponent},
+  {path: "table", component: TableDataComponent},
   {path: "**", component: PageNotFoundComponent},
 ];
 
